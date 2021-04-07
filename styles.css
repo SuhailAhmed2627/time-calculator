@@ -1,0 +1,119 @@
+*
+{
+    box-sizing: border-box;
+}
+  
+body
+{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title
+{
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 5.5vh;
+}
+  
+.calculator
+{
+    align-self: center;
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+  
+.screen
+{
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    padding: 20px 5px;
+}
+  
+.calc-button
+{
+    background-color: #d8d9db;
+    color: black;
+    height: 100px;
+    width: 25vh;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+  
+.calc-button:hover
+{
+    background-color: #ebebeb;
+}
+  
+.calc-button:active
+{
+    background-color: #bbbcbe;
+}
+  
+.double
+{
+    width: 52.5vh;
+}
+  
+.triple
+{
+    width: 79vh;
+}
+  
+.calc-button:last-child
+{
+    background-color: #4c98df;
+    color: white;
+}
+  
+.calc-button:last-child:hover
+{
+    background-color: #3e79b1;
+}
+  
+.calc-button:last-child:active
+{
+    background-color: #4c98df;
+}
+  
+.calc-button-row
+{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.first > .calc-button:last-child
+{
+    background-color: #d8d9db;
+    color: black;
+}
+
+.first > .calc-button:last-child:hover
+{
+    background-color: #ebebeb;
+}
+  
+.calc-button-row:last-child
+{
+    padding-bottom: 0;
+}
+
+.madewithlove
+{
+    font-family: 'Work Sans', sans-serif;
+}
