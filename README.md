@@ -2,5 +2,5 @@
 Made this project to practise my beginner-level JavaScript Knowledge.
 Feel Free to fork it and Learn anything if possible
 
-Thank You
+Thank You,
 Suhail Ahmed❤️
